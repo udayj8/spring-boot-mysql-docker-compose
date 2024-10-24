@@ -1,4 +1,4 @@
-package in.ashokit.controller;
+package in.udayj.controller;
 
 import java.util.List;
 
@@ -10,8 +10,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import in.ashokit.binding.Book;
-import in.ashokit.repository.BookRepository;
+import in.udayj.binding.Book;
+import in.udayj.repository.BookRepository;
 
 @Controller
 public class BookController {
